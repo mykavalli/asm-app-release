@@ -3,10 +3,10 @@
   "version_name": "1.5.2",
   "build_number": 4,
   "file_name": "salon_service_windows_x64.zip",
-  "file_size": 13496957,
-  "sha256": "5E18170B8DFC38C56BFBE9F666FB7054E20FA21080D2A47E9EB33C6AF61F7D47",
+  "file_size": 13496746,
+  "sha256": "0F50D3B4847722F6D0EAE946D251F9289E30390953F39BCAB5AD36B00184CBD9",
   "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/v1.5.2-salon/salon_service_windows_x64.zip",
-  "release_notes": "v1.5.2 (Build 4): Tối ưu panel Cấu hình Chung & Kết nối Server nhỏ gọn đẹp mắt, thu gọn nút Lưu cấu hình và tối ưu layout responsive.",
-  "uploaded_at": "2026-09-08 20:25:00"
+  "release_notes": "v1.5.2 (Build 4): Tối ưu panel Cấu hình Chung & Kết nối Server nhỏ gọn đẹp mắt, thu gọn nút Lưu cấu hình, nâng cấp cơ chế tự động cập nhật và khởi động lại độc lập tuyệt đối.",
+  "uploaded_at": "2026-09-08 20:36:00"
 }
 
