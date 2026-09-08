@@ -1,0 +1,11 @@
+﻿{
+  "has_update": true,
+  "version_name": "1.5.1",
+  "build_number": 1,
+  "file_name": "salon_service_windows_x64.zip",
+  "file_size": 16200810,
+  "sha256": "03606F956FF00A363E6EF696953A66E7EE93AE34E33803BEAD72B4BB1B19F463",
+  "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/v1.5.1-salon/salon_service_windows_x64.zip",
+  "release_notes": "Bản phát hành v1.5.1 cho Salon Service Desktop: Kiến trúc WebSocket đồng bộ đa site, chống lặp cập nhật, sắp xếp ưu tiên trễ giờ.",
+  "uploaded_at": "2026-09-08 10:22:00"
+}
