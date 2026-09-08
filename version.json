@@ -1,11 +1,12 @@
 {
   "has_update": true,
   "version_name": "1.5.2",
-  "build_number": 2,
+  "build_number": 3,
   "file_name": "salon_service_windows_x64.zip",
-  "file_size": 13482277,
-  "sha256": "D8D7DBEF3B2D1D0B105E334B245B39ED4A35C955D5088F97A6055104E4A8CE17",
+  "file_size": 13496596,
+  "sha256": "CA7D0DF4B90ED034F50058FE9B743082D019DDEBB9F8AAE1497D2DAB4FF9569F",
   "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/v1.5.2-salon/salon_service_windows_x64.zip",
-  "release_notes": "v1.5.2: Cập nhật giao diện thông báo tiếng Việt có dấu, thanh tiến trình tải trực quan. Nâng cấp bộ cài đặt bất đồng bộ tự động giải phóng lock file và khởi động lại app. Hệ thống âm thanh Ting Ting và cảnh báo song ngữ trực tiếp từ ổ đĩa.",
-  "uploaded_at": "2026-09-08 18:38:00"
-}
+  "release_notes": "v1.5.2 (Build 3): Tối ưu giao diện responsive cho màn hình nhỏ (tự động chuyển đổi tab gọn gàng). Gom nhóm cấu hình Tên, Icon, Chi nhánh và Server vào 1 panel nhỏ gọn. Nhận diện động thư mục app và vị trí file âm thanh tại thời điểm chạy trên mọi máy tính.",
+  "uploaded_at": "2026-09-08 18:54:00"
+}
+
