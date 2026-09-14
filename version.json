@@ -1,18 +1,10 @@
 {
   "app_code": "asm-checkin-auto",
   "platforms": {
-    "windows": {
-      "has_update": true,
-      "version_name": "1.1.4",
-      "build_number": 16,
-      "file_name": "asm-checkin-auto-1.1.4-build16-windows.zip",
-      "file_size": 17205593,
-      "sha256": "bb79a4bf87077e8cbd64e9268f0c0135f473eddedf0c4f6a3a5c7b3fba83e3e3",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/asm-checkin-auto-v1.1.4-build16/asm-checkin-auto-1.1.4-build16-windows.zip",
-      "release_notes": "Chuyển cập nhật sang asm-app-release; kiểm tra phiên bản, dung lượng và SHA-256. Nhân viên kho tự gán chỗ đỗ.",
-      "uploaded_at": "2026-09-14T07:43:57.179184+00:00"
-    },
     "android": {
+      "has_update": false
+    },
+    "windows": {
       "has_update": false
     }
   }

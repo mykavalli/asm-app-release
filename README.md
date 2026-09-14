@@ -1,15 +1,12 @@
-# ASM Check-in Auto releases
+# ASM Check-in Auto Android releases
 
 Dedicated branch: `asm-checkin-auto`.
-
 Manifest: https://raw.githubusercontent.com/mykavalli/asm-app-release/asm-checkin-auto/version.json
 
-Windows 1.1.4+16 migrates updates from the previous ASM API to this channel.
-Install this version once manually on existing machines, then use the in-app
-update checker for future releases. Extract the full Windows ZIP, including
-DLLs and data; do not copy the EXE alone.
+This is the Android application. Windows 7/10 packages belong to asm-checkin-manual.
+The mistakenly published Windows package has been withdrawn.
 
-The manifest separates Windows and Android. No Android artifact is advertised
-until a package signed with the existing signing key is published.
-
-Source: mykavalli/asm-checkin-auto, commit ea4db2b.
+The Android migration build must retain application ID com.example.checkin_security_gate
+and match the signing certificate of the old server APK. Only publish the Android
+manifest after this check succeeds. The old server currently advertises 1.1.8+37.
+The migration build is 1.1.9+38; legacy app_code is checkin_security_gate_auto.
