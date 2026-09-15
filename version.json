@@ -1,12 +1,11 @@
 {
   "has_update": true,
-  "version_name": "1.5.2",
-  "build_number": 6,
+  "version_name": "1.5.3",
+  "build_number": 7,
   "file_name": "salon_service_windows_x64.zip",
-  "file_size": 13512387,
-  "sha256": "9B1AC662B58C2160EEC51D1556A8EFB4225965ECB99B0A0C7E28D5CC803975E0",
-  "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/v1.5.2-salon/salon_service_windows_x64.zip",
-  "release_notes": "v1.5.2 (Build 6): Tự động kiểm tra cập nhật ngay khi mở App (kèm nút pill thông báo trên AppBar), nâng cấp toàn diện 3 panel Cài đặt (Kiểm tra âm thanh, Đổi mật khẩu, Thông tin cập nhật) sang giao diện Pro hiện đại.",
-  "uploaded_at": "2026-09-08 20:58:00"
+  "file_size": 13511986,
+  "sha256": "F71A26047F718FEBF2FE293D216B76F2BBB5BA03DF33A0B65E6606964D4BE1AF",
+  "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/v1.5.3-salon/salon_service_windows_x64.zip",
+  "release_notes": "v1.5.3 (Build 7): Mở khóa đăng ký bổ sung Salon cho tất cả nhân viên (không giới hạn VIP), sửa lỗi 'Mã nhân viên bắt buộc' và loại bỏ mục liên kết lần vào cửa.",
+  "uploaded_at": "2026-09-15 22:18:00"
 }
-
