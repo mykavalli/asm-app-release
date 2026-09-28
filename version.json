@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.4.0",
-      "build_number": 5,
-      "file_name": "shuttle-mobile-control-1.4.0-build5.apk",
+      "version_name": "1.5.0",
+      "build_number": 6,
+      "file_name": "shuttle-mobile-control-1.5.0-build6.apk",
       "file_size": 1221979,
-      "sha256": "cbbb230c539acdb67f35c3509e8cf4825ecae229cb6f7b19b12f197f2419af3d",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.4.0-build5/shuttle-mobile-control-1.4.0-build5.apk",
-      "release_notes": "Bản 1.4.0 (build 5): cập nhật bảng địa chỉ theo DB101 thật - In Single (DBX1.7 + số lượng DBW14), In Continue (DBX2.0 + số lượng DBW4), Out Single (DBX6.0 + DBW16), Out Continue (DBX6.1 + DBW8), Shift theo side (DBX22.2); tự gửi chế độ AUTO/MANUAL khi kết nối; chờ Home trước khi gửi lệnh + hiển thị Encoder; Settings gộp: HIỂN THỊ (Tối/Sáng + Việt/Anh) trên cùng - KẾT NỐI (Unlock + Quantity In/Out Continue mặc định 100 + tốc độ) - CẬP NHẬT dưới cùng; cảm biến LED xanh (vị trí)/cam (phát hiện), mất kết nối tắt hết.",
-      "uploaded_at": "2026-09-28T05:25:34+00:00"
+      "sha256": "1148c799649fa59ebb6bf4d38d01133cce2484f9a73179b8f9e846fb531be647",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.0-build6/shuttle-mobile-control-1.5.0-build6.apk",
+      "release_notes": "Bản 1.5.0 (build 6): SỬA LỖI lệnh không chạy - pulse Home rồi NHẢ bit (app cũ giữ bit Home mãi làm PLC kẹt), thêm W_EN khi kết nối và W_GO trước tác vụ; trạng thái mượt: Đang về home -> Đang chạy -> Cancel; LED cảm biến: xanh = bình thường, cam = có vật cản/đang đo, số 1/2 = mức gần/xa (KD/PD), mất kết nối tắt hết.",
+      "uploaded_at": "2026-09-28T07:00:10+00:00"
     },
     "windows": {
       "has_update": false
