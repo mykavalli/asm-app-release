@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.5.0",
-      "build_number": 6,
-      "file_name": "shuttle-mobile-control-1.5.0-build6.apk",
+      "version_name": "1.5.1",
+      "build_number": 7,
+      "file_name": "shuttle-mobile-control-1.5.1-build7.apk",
       "file_size": 1221979,
-      "sha256": "1148c799649fa59ebb6bf4d38d01133cce2484f9a73179b8f9e846fb531be647",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.0-build6/shuttle-mobile-control-1.5.0-build6.apk",
-      "release_notes": "Bản 1.5.0 (build 6): SỬA LỖI lệnh không chạy - pulse Home rồi NHẢ bit (app cũ giữ bit Home mãi làm PLC kẹt), thêm W_EN khi kết nối và W_GO trước tác vụ; trạng thái mượt: Đang về home -> Đang chạy -> Cancel; LED cảm biến: xanh = bình thường, cam = có vật cản/đang đo, số 1/2 = mức gần/xa (KD/PD), mất kết nối tắt hết.",
-      "uploaded_at": "2026-09-28T07:00:10+00:00"
+      "sha256": "e1f16a664ce223fc9f50a36d44afb40a884798167910953c6ced9034d0d6745f",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.1-build7/shuttle-mobile-control-1.5.1-build7.apk",
+      "release_notes": "Bản 1.5.1 (build 7): xác định Home bằng cảm biến theo dev - KD2 và KD4 = 0 nghĩa là shuttle đang ở Home (thay cho chờ mù); chip HOME xanh trên panel VẬN HÀNH; chuỗi chuẩn: pulse Home 400ms -> nhả bit -> chờ KD2/KD4=0 (tối đa 30s) -> W_GO -> quantity -> lệnh.",
+      "uploaded_at": "2026-09-28T07:08:17+00:00"
     },
     "windows": {
       "has_update": false
