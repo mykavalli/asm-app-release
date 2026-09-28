@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.5.4",
-      "build_number": 10,
-      "file_name": "shuttle-mobile-control-1.5.4-build10.apk",
-      "file_size": 1254791,
-      "sha256": "c080ee733dc4f97f1c62b5bb12b50eff97cd8b6e958abcb1ccc0c7a871ab73fe",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.4-build10/shuttle-mobile-control-1.5.4-build10.apk",
-      "release_notes": "Bản 1.5.4 (build 10): SỬA LỖI TREO APP - không giữ khóa bus trong lúc chờ Home (mọi nút/tab vẫn hoạt động); STOP và Xóa lỗi gửi NGAY không xếp hàng; bấm lại nút 'Đang chạy' để HỦY chờ Home; Home xác định bằng KD2&KD4=0 HOẶC Encoder≈0 (thực đo home encoder=0); hiển thị chẩn đoán KD2/KD4/Encoder trên message bar trong lúc chờ; chờ tối đa 20s.",
-      "uploaded_at": "2026-09-28T08:38:20+00:00"
+      "version_name": "1.5.5",
+      "build_number": 11,
+      "file_name": "shuttle-mobile-control-1.5.5-build11.apk",
+      "file_size": 1258127,
+      "sha256": "42468bef4b4a9e5330affa27fc3b276c91495c32bf0125835ddf22ea205a1859",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.5-build11/shuttle-mobile-control-1.5.5-build11.apk",
+      "release_notes": "Bản 1.5.5 (build 11): ICON ROBOT mới - đầu robot thân thiện (ăng-ten + mắt xanh + miệng cười) trên nền sáng mint gradient, phong cách hiện đại; giữ nguyên toàn bộ chức năng 1.5.4 (fix treo app khi chờ Home).",
+      "uploaded_at": "2026-09-28T08:46:26+00:00"
     },
     "windows": {
       "has_update": false
