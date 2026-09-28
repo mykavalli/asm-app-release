@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.5.2",
-      "build_number": 8,
-      "file_name": "shuttle-mobile-control-1.5.2-build8.apk",
-      "file_size": 1240631,
-      "sha256": "e01b19a708aad91a41fd1138a38f32afd9f274e0b6fcad368b2ec199b9f5bd7f",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.2-build8/shuttle-mobile-control-1.5.2-build8.apk",
-      "release_notes": "Bản 1.5.2 (build 8): sửa lỗi kiểm tra cập nhật khi đang nối WiFi shuttle hoặc WiFi khác - app tạm chuyển đường mạng sang mạng có internet khi gọi HTTP rồi khôi phục (không cần thoát app); ẩn dòng địa chỉ github ở mục CẬP NHẬT; THÊM ICON ỨNG DỤNG (shuttle + mũi tên + cảm biến) hiển thị trên màn hình điện thoại.",
-      "uploaded_at": "2026-09-28T08:09:58+00:00"
+      "version_name": "1.5.3",
+      "build_number": 9,
+      "file_name": "shuttle-mobile-control-1.5.3-build9.apk",
+      "file_size": 1254791,
+      "sha256": "03a4f3c3b4dc535ac8b1e6855a5cd83375bef43a8d86470e72526f7f10498524",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.3-build9/shuttle-mobile-control-1.5.3-build9.apk",
+      "release_notes": "Bản 1.5.3 (build 9): ICON MỚI hiện đại tối giản - khối shuttle đặt trên đường ray với mũi tên tiến xanh (nền gradient tối); giữ nguyên toàn bộ chức năng của 1.5.2.",
+      "uploaded_at": "2026-09-28T08:17:26+00:00"
     },
     "windows": {
       "has_update": false
