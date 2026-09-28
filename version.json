@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.0.0",
-      "build_number": 1,
-      "file_name": "shuttle-mobile-control-1.0.0-build1.apk",
-      "file_size": 979907,
-      "sha256": "d1447e25beac02a6cb53053f7eb6c0bb309a434a15a0989d899b757f1697ec66",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.0.0-build1/shuttle-mobile-control-1.0.0-build1.apk",
-      "release_notes": "Bản phát hành đầu tiên (1.0.0 build 1): 3 màn hình Auto / Manual / Settings; điều khiển In/Out Single & Continue, Shift, Count, Change Side, Clear Error, Home; JOG nâng/hạ/tiến/lùi; sơ đồ cảm biến HK/AK/HI/LI/KD/PD; khóa liên động khi job đang chạy; Cancel job; slider tốc độ shuttle 0-1.5 m/s; 3 chế độ hiển thị (Tối/Sáng/Nền sáng); kiểm tra cập nhật trong Settings.",
-      "uploaded_at": "2026-09-28T02:08:58+00:00"
+      "version_name": "1.1.0",
+      "build_number": 2,
+      "file_name": "shuttle-mobile-control-1.1.0-build2.apk",
+      "file_size": 979911,
+      "sha256": "b58a0f2450f6512546dd8068960fc707ede8bdd76591b0fe0cd6442419d3f5c5",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.1.0-build2/shuttle-mobile-control-1.1.0-build2.apk",
+      "release_notes": "Bản 1.1.0 (build 2): nâng cấp phiên bản phục vụ kiểm thử kênh cập nhật OTA (Settings → Update). Không thay đổi chức năng điều khiển so với 1.0.0.",
+      "uploaded_at": "2026-09-28T02:17:05+00:00"
     },
     "windows": {
       "has_update": false
