@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.1.0",
-      "build_number": 2,
-      "file_name": "shuttle-mobile-control-1.1.0-build2.apk",
-      "file_size": 979911,
-      "sha256": "b58a0f2450f6512546dd8068960fc707ede8bdd76591b0fe0cd6442419d3f5c5",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.1.0-build2/shuttle-mobile-control-1.1.0-build2.apk",
-      "release_notes": "Bản 1.1.0 (build 2): nâng cấp phiên bản phục vụ kiểm thử kênh cập nhật OTA (Settings → Update). Không thay đổi chức năng điều khiển so với 1.0.0.",
-      "uploaded_at": "2026-09-28T02:17:05+00:00"
+      "version_name": "1.2.0",
+      "build_number": 3,
+      "file_name": "shuttle-mobile-control-1.2.0-build3.apk",
+      "file_size": 1221979,
+      "sha256": "7c96b7d7e9d8b3e9cb32cbce6245884049bccd384eb6d3771613b8e74a4db97d",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.2.0-build3/shuttle-mobile-control-1.2.0-build3.apk",
+      "release_notes": "Bản 1.2.0 (build 3): Settings mặc định KHÓA - mở khóa bằng mật khẩu (mặc định 1999); icon pin 5 mức (0/25/50/75/100) đổi màu dần về đỏ khi về 0; chưa kết nối PLC hiển thị 0%; bản release ẩn chế độ DEMO và tự kết nối PLC khi mở app; ghi chú cảm biến hiển thị từng dòng.",
+      "uploaded_at": "2026-09-28T02:45:43+00:00"
     },
     "windows": {
       "has_update": false
