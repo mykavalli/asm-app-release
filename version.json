@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.5.1",
-      "build_number": 7,
-      "file_name": "shuttle-mobile-control-1.5.1-build7.apk",
-      "file_size": 1221979,
-      "sha256": "e1f16a664ce223fc9f50a36d44afb40a884798167910953c6ced9034d0d6745f",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.1-build7/shuttle-mobile-control-1.5.1-build7.apk",
-      "release_notes": "Bản 1.5.1 (build 7): xác định Home bằng cảm biến theo dev - KD2 và KD4 = 0 nghĩa là shuttle đang ở Home (thay cho chờ mù); chip HOME xanh trên panel VẬN HÀNH; chuỗi chuẩn: pulse Home 400ms -> nhả bit -> chờ KD2/KD4=0 (tối đa 30s) -> W_GO -> quantity -> lệnh.",
-      "uploaded_at": "2026-09-28T07:08:17+00:00"
+      "version_name": "1.5.2",
+      "build_number": 8,
+      "file_name": "shuttle-mobile-control-1.5.2-build8.apk",
+      "file_size": 1240631,
+      "sha256": "e01b19a708aad91a41fd1138a38f32afd9f274e0b6fcad368b2ec199b9f5bd7f",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.2-build8/shuttle-mobile-control-1.5.2-build8.apk",
+      "release_notes": "Bản 1.5.2 (build 8): sửa lỗi kiểm tra cập nhật khi đang nối WiFi shuttle hoặc WiFi khác - app tạm chuyển đường mạng sang mạng có internet khi gọi HTTP rồi khôi phục (không cần thoát app); ẩn dòng địa chỉ github ở mục CẬP NHẬT; THÊM ICON ỨNG DỤNG (shuttle + mũi tên + cảm biến) hiển thị trên màn hình điện thoại.",
+      "uploaded_at": "2026-09-28T08:09:58+00:00"
     },
     "windows": {
       "has_update": false

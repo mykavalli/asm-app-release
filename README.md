@@ -8,14 +8,14 @@ Repository: `mykavalli/asm-app-release`
 
 ## Thông tin phiên bản hiện tại
 
-* **Phiên bản:** `1.5.1`
-* **Build number:** `7`
-* **File cập nhật:** `shuttle-mobile-control-1.5.1-build7.apk`
+* **Phiên bản:** `1.5.2`
+* **Build number:** `8`
+* **File cập nhật:** `shuttle-mobile-control-1.5.2-build8.apk`
 * **File mô tả phiên bản:** [`version.json`](./version.json)
 * **Endpoint kiểm tra cập nhật:**
   `https://raw.githubusercontent.com/mykavalli/asm-app-release/shuttle-mobile-control/version.json`
 * **GitHub Release URL:**
-  `https://github.com/mykavalli/asm-app-release/releases/tag/shuttle-mobile-control-v1.5.1-build7`
+  `https://github.com/mykavalli/asm-app-release/releases/tag/shuttle-mobile-control-v1.5.2-build8`
 
 ## Quy trình phát hành bản mới
 
