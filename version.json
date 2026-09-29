@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.5.8",
-      "build_number": 14,
-      "file_name": "shuttle-mobile-control-1.5.8-build14.apk",
-      "file_size": 1274511,
-      "sha256": "b289468051830ab845c4255cb5ddb46a68678057b9465901ca892da3cb92b5d0",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.8-build14/shuttle-mobile-control-1.5.8-build14.apk",
-      "release_notes": "Bản 1.5.8 (build 14) - Tối ưu realtime: poll 120ms (~8Hz) thay vì 200ms; burst 50ms trong 1,2s ngay sau khi bấm lệnh (phản hồi gần như tức thì); đo độ trễ mỗi vòng đọc và hiển thị trên header + Settings (chất lượng kết nối ~X ms); pin đọc ~1,2s/lần. Heartbeat DBX2.1 giữ 500ms đúng như app cũ. Thêm docs/Communication_Notes.md giải thích vì sao S7 cần poll + heartbeat, so sánh độ trễ với app cũ.",
-      "uploaded_at": "2026-09-29T05:25:00+00:00"
+      "version_name": "1.5.9",
+      "build_number": 15,
+      "file_name": "shuttle-mobile-control-1.5.9-build15.apk",
+      "file_size": 1274515,
+      "sha256": "650c5a25d73868cfc10987e784d9de5975f43694f44ac4ea74e16ac5f8f238b3",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.9-build15/shuttle-mobile-control-1.5.9-build15.apk",
+      "release_notes": "Bản 1.5.9 (build 15) - Chống nháy Online/Offline: không ngắt kết nối khi 1-2 chu kỳ đọc lỗi; lỗi giao thức (PLC trả lời) không làm rớt kết nối; chỉ Offline sau 3 lần thất bại liên tiếp và hiển thị trạng thái 'Khôi phục' màu vàng. Fallback chia nhỏ vùng đọc nếu DB ngắn hơn dự kiến. Lỗi heartbeat không làm rớt kết nối. Tự bind lại WiFi định kỳ + tìm mạng WiFi khi 4G là mạng mặc định. Thêm Chẩn đoán trong Settings (lỗi cuối, số lỗi liên tiếp, số lần tự kết nối lại). Log chẩn đoán qua logcat tag ShuttlePLC.",
+      "uploaded_at": "2026-09-29T06:40:00+00:00"
     },
     "windows": {
       "has_update": false
