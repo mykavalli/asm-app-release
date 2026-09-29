@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.5.6",
-      "build_number": 12,
-      "file_name": "shuttle-mobile-control-1.5.6-build12.apk",
-      "file_size": 1258127,
-      "sha256": "e4d3f7ac3d2e224abd33ea7c97e25aa5ddffd200d93a7ee57d142a473cbf48f9",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.6-build12/shuttle-mobile-control-1.5.6-build12.apk",
-      "release_notes": "Bản 1.5.6 (build 12): BỎ ép về Home trước khi gọi lệnh - In/Out/Shift/Count gửi THẲNG xuống shuttle (quantity + bit lệnh), shuttle tự thực hiện tiếp; tab Auto/Manual chỉ chuyển chế độ; nút Home giữ nguyên hành vi cũ (pulse + theo dõi trạng thái); giữ icon robot + các fix ổn định trước đó.",
-      "uploaded_at": "2026-09-29T03:17:20+00:00"
+      "version_name": "1.5.7",
+      "build_number": 13,
+      "file_name": "shuttle-mobile-control-1.5.7-build13.apk",
+      "file_size": 1274511,
+      "sha256": "5939c9051c1be42cfb7c2711f5b59242e2b9c0e883fda8bea114bf8dc54545fe",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.7-build13/shuttle-mobile-control-1.5.7-build13.apk",
+      "release_notes": "Bản 1.5.7 (build 13): Đối chiếu 1-1 với app cũ DANONPROSST đang chạy thật (đã decompile). Bổ sung HEARTBEAT DB101.DBX2.1 pulse mỗi 500ms (thiếu heartbeat là PLC không nhận lệnh). Nhập (In) ghi DBX2.0 và đọc phản hồi DBX1.7; bỏ số lượng In (app cũ không gửi); Out Single/Continue ghi số lượng DBW8 trước khi gửi, đúng như app cũ. Đảo chiều = ghi DB100.DBX0.2 (0=A, 1=B). Cảm biến đúng máy: KD1/KD2/HK1/HK2/HI/LI tại DB100 byte 22, PD1/PD2 byte 36, Encoder DBD24, số robot DBW38, ROBOT ON/OFF DBX0.0. Mã lỗi 0x30 (phát hiện pallet) coi là bình thường. Thêm nút Quét tìm Shuttle trong mạng WiFi (cổng 102).",
+      "uploaded_at": "2026-09-29T04:55:00+00:00"
     },
     "windows": {
       "has_update": false
