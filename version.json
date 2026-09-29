@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.5.9",
-      "build_number": 15,
-      "file_name": "shuttle-mobile-control-1.5.9-build15.apk",
-      "file_size": 1274515,
-      "sha256": "650c5a25d73868cfc10987e784d9de5975f43694f44ac4ea74e16ac5f8f238b3",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.5.9-build15/shuttle-mobile-control-1.5.9-build15.apk",
-      "release_notes": "Bản 1.5.9 (build 15) - Chống nháy Online/Offline: không ngắt kết nối khi 1-2 chu kỳ đọc lỗi; lỗi giao thức (PLC trả lời) không làm rớt kết nối; chỉ Offline sau 3 lần thất bại liên tiếp và hiển thị trạng thái 'Khôi phục' màu vàng. Fallback chia nhỏ vùng đọc nếu DB ngắn hơn dự kiến. Lỗi heartbeat không làm rớt kết nối. Tự bind lại WiFi định kỳ + tìm mạng WiFi khi 4G là mạng mặc định. Thêm Chẩn đoán trong Settings (lỗi cuối, số lỗi liên tiếp, số lần tự kết nối lại). Log chẩn đoán qua logcat tag ShuttlePLC.",
-      "uploaded_at": "2026-09-29T06:40:00+00:00"
+      "version_name": "1.6.0",
+      "build_number": 16,
+      "file_name": "shuttle-mobile-control-1.6.0-build16.apk",
+      "file_size": 1274511,
+      "sha256": "8485d3e71cd2691fa70678327bd093907e8335eba419652a7f1bac0008f8b9c0",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.6.0-build16/shuttle-mobile-control-1.6.0-build16.apk",
+      "release_notes": "Bản 1.6.0 (build 16): Sửa Đếm/Xếp hàng không chạy - hai nút này giờ PULSE bit (1 -> chờ 250ms -> 0) để luôn tạo cạnh lên mới, kể cả khi bit còn kẹt 1 từ phiên bản cũ (1.5.6 trở về trước ghi lệnh khi chưa có heartbeat nên bit có thể đã lưu 1 trên PLC). Đổi tên nút 'Xếp tới' thành 'XẾP HÀNG'. Màn Thủ công: thu gọn sơ đồ cảm biến (214dp -> 138dp, chú thích 3 dòng) và đẩy cụm nút xuống gần giữa màn hình cho dễ bấm. Thêm chú thích ý nghĩa chip ROBOT (DB100.DBX0.0 - robot sẵn sàng).",
+      "uploaded_at": "2026-09-29T07:10:00+00:00"
     },
     "windows": {
       "has_update": false
