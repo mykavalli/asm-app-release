@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.6.1",
-      "build_number": 17,
-      "file_name": "shuttle-mobile-control-1.6.1-build17.apk",
+      "version_name": "1.6.2",
+      "build_number": 18,
+      "file_name": "shuttle-mobile-control-1.6.2-build18.apk",
       "file_size": 1274511,
-      "sha256": "b679de8826592f84fd446982eb4e14d77ef8478f7bf49c7573532b11f33fd40b",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.6.1-build17/shuttle-mobile-control-1.6.1-build17.apk",
-      "release_notes": "Bản 1.6.1 (build 17): (1) Kích hoạt Nhập đơn (In Single) - gửi DB101.DBX1.7 dạng PULSE 1->0 (W_MNHAP), không còn báo 'chưa hỗ trợ'. (2) Cancel giờ tự động: STOP (pulse 0.6) -> CLEAR ERROR (pulse 0.7) -> nhả toàn bộ bit lệnh đã ghi (1.7, 2.0, 6.0, 6.1, 1.6, 22.2), mở khóa UI ngay - lệnh tiếp theo gửi thẳng khi bấm, không cần Stop/Clear/Home thủ công. (3) STOP/CLEAR không để bit kẹt mức 1 nữa (pulse), tránh kẹt trạng thái làm lệnh sau không chạy. (4) Hết chờ phản hồi lệnh: 15s. Đã test DEMO: Nhập đơn chạy -> HỦY -> tự về Chờ.",
-      "uploaded_at": "2026-09-29T08:35:00+00:00"
+      "sha256": "883788b7ae45a154538c6349acfe2e22b26622948b779d7b5d803d23e667528a",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.6.2-build18/shuttle-mobile-control-1.6.2-build18.apk",
+      "release_notes": "Bản 1.6.2 (build 18) - Đồng bộ theo audit với 2 app Prosst cũ: (1) Ép giữ chế độ AUTO khi đang ở tab Tự động (~2s/lần, không ép khi đang Stop) - giống app MAUI đang chạy thật; (2) Phản hồi 'đang nhập' hợp nhất 2 nguồn DBX2.0 (như RN) + DBX1.7 (như MAUI); (3) Cảnh báo 'ROBOT CHƯA HOẠT ĐỘNG ĐƯỢC!' khi DB100.0.0 = OFF (giống app cũ); (4) Nhập đơn ghi thêm DBW14=1 (W_MNhap_SoPallet) trước khi pulse DBX1.7; (5) Báo cáo audit đầy đủ trong docs/Audit_Old_vs_New.md.",
+      "uploaded_at": "2026-09-29T09:45:00+00:00"
     },
     "windows": {
       "has_update": false
