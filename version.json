@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.6.0",
-      "build_number": 16,
-      "file_name": "shuttle-mobile-control-1.6.0-build16.apk",
+      "version_name": "1.6.1",
+      "build_number": 17,
+      "file_name": "shuttle-mobile-control-1.6.1-build17.apk",
       "file_size": 1274511,
-      "sha256": "8485d3e71cd2691fa70678327bd093907e8335eba419652a7f1bac0008f8b9c0",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.6.0-build16/shuttle-mobile-control-1.6.0-build16.apk",
-      "release_notes": "Bản 1.6.0 (build 16): Sửa Đếm/Xếp hàng không chạy - hai nút này giờ PULSE bit (1 -> chờ 250ms -> 0) để luôn tạo cạnh lên mới, kể cả khi bit còn kẹt 1 từ phiên bản cũ (1.5.6 trở về trước ghi lệnh khi chưa có heartbeat nên bit có thể đã lưu 1 trên PLC). Đổi tên nút 'Xếp tới' thành 'XẾP HÀNG'. Màn Thủ công: thu gọn sơ đồ cảm biến (214dp -> 138dp, chú thích 3 dòng) và đẩy cụm nút xuống gần giữa màn hình cho dễ bấm. Thêm chú thích ý nghĩa chip ROBOT (DB100.DBX0.0 - robot sẵn sàng).",
-      "uploaded_at": "2026-09-29T07:10:00+00:00"
+      "sha256": "b679de8826592f84fd446982eb4e14d77ef8478f7bf49c7573532b11f33fd40b",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.6.1-build17/shuttle-mobile-control-1.6.1-build17.apk",
+      "release_notes": "Bản 1.6.1 (build 17): (1) Kích hoạt Nhập đơn (In Single) - gửi DB101.DBX1.7 dạng PULSE 1->0 (W_MNHAP), không còn báo 'chưa hỗ trợ'. (2) Cancel giờ tự động: STOP (pulse 0.6) -> CLEAR ERROR (pulse 0.7) -> nhả toàn bộ bit lệnh đã ghi (1.7, 2.0, 6.0, 6.1, 1.6, 22.2), mở khóa UI ngay - lệnh tiếp theo gửi thẳng khi bấm, không cần Stop/Clear/Home thủ công. (3) STOP/CLEAR không để bit kẹt mức 1 nữa (pulse), tránh kẹt trạng thái làm lệnh sau không chạy. (4) Hết chờ phản hồi lệnh: 15s. Đã test DEMO: Nhập đơn chạy -> HỦY -> tự về Chờ.",
+      "uploaded_at": "2026-09-29T08:35:00+00:00"
     },
     "windows": {
       "has_update": false
