@@ -10,7 +10,7 @@
       "sha256": "ae65cffe66f92212ca326a66a19c63ce3e6ea9925a6cabf7a987b54703f325d9",
       "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/asm-checkin-pda-v1.0.0-build1/asm-checkin-pda-1.0.0-build1.apk",
       "release_notes": "Bản phát hành đầu tiên v1.0.0 (build 1) - App PDA cho bảo vệ quét QR check-in/check-out tại cổng: quét QR (máy quét HID / DataWedge / Urovo / Honeywell / nhập tay), xác nhận check-in Cloud ASM + đẩy đăng ký xe xuống Local FastAPI, tra cứu & cập nhật biển số (Cloud -> Cache -> Local), trả thẻ check-out, ghi nhận giờ RA/VÀO cho Request User, cảnh báo hết hạn/sức khỏe, Cài đặt khóa bằng mật khẩu admin và tự cập nhật từ asm-app-release.",
-      "uploaded_at": "2026-10-02T04:00:00+00:00"
+      "uploaded_at": "2026-10-02T03:50:58+00:00"
     }
   }
 }
