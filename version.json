@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.0.5",
-      "build_number": 6,
-      "file_name": "asm-checkin-pda-1.0.5-build6.apk",
-      "file_size": 1249071,
-      "sha256": "f95ee594bb8ca38bb2f67d68e72fc14b587d96d248f97161c5716543d9c3c561",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/asm-checkin-pda-v1.0.5-build6/asm-checkin-pda-1.0.5-build6.apk",
-      "release_notes": "Bản 1.0.5 (build 6): App chuyển đúng mục đích CHỈ TRẢ THẺ (check-out) tại cổng: bỏ kết nối Local server, bỏ check-in, bỏ cập nhật biển số và ghi nhận giờ Request User. Bảo vệ quét QR của khách hoặc mã vạch trên thẻ → app chỉ hiện chi tiết khi có thẻ đang mở → bấm TRẢ THẺ để thu hồi. Giữ nguyên: quét HID/intent, cảnh báo sức khỏe, hiển thị thời gian xử lý, Cài đặt khóa mật khẩu 1999 + icon con mắt, tự cập nhật từ asm-app-release.",
-      "uploaded_at": "2026-10-02T05:07:50+00:00"
+      "version_name": "1.0.6",
+      "build_number": 7,
+      "file_name": "asm-checkin-pda-1.0.6-build7.apk",
+      "file_size": 1249075,
+      "sha256": "5d5274b9483746397bf68faaa351d4c0964dfaa427e67defc2020809df9e1eac",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/asm-checkin-pda-v1.0.6-build7/asm-checkin-pda-1.0.6-build7.apk",
+      "release_notes": "Bản 1.0.6 (build 7) - BẢO MẬT: (1) Bỏ hoàn toàn Desktop API Key khỏi APK (repo release là repo công khai); cấu hình cấp qua file provision.json đặt vào máy hoặc nhập tay trong Cài đặt; (2) App chỉ chấp nhận Cloud HTTPS, tắt cleartext toàn app; (3) Cảnh báo khi chưa có API key. Giữ nguyên nghiệp vụ: quét QR/thẻ -> TRẢ THẺ (check-out), không kết nối Local, không check-in.",
+      "uploaded_at": "2026-10-02T12:36:50+00:00"
     }
   }
 }
