@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.0.4",
-      "build_number": 5,
-      "file_name": "asm-checkin-pda-1.0.4-build5.apk",
-      "file_size": 1265455,
-      "sha256": "ed46e4d01044e7b36322261102752b61a8217a9c543194f4011a7eb35441ec59",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/asm-checkin-pda-v1.0.4-build5/asm-checkin-pda-1.0.4-build5.apk",
-      "release_notes": "Bản 1.0.4 (build 5): (1) Nút QUAY LẠI xóa ngay ô quét QR và tự focus sẵn sàng quét lượt mới; (2) Tăng tốc quét: tra biển số từ Local server chạy song song (tối đa ~1.2s thay vì 4.5s) và tự bỏ qua Local trong 60s khi mạng nội bộ không tới được - khắc phục tình trạng chờ ~5s mỗi lượt quét; (3) Hiển thị thời gian xử lý mỗi lượt quét trong thông báo và lịch sử; (4) Bàn phím ô mật khẩu Cài đặt chuyển sang QWERTY để nhập được cả chữ và số; (5) Bổ sung từ 1.0.3: mật khẩu mặc định 1999, seed sẵn API key asm-gate, icon con mắt xem mật khẩu/khóa.",
-      "uploaded_at": "2026-10-02T05:01:09+00:00"
+      "version_name": "1.0.5",
+      "build_number": 6,
+      "file_name": "asm-checkin-pda-1.0.5-build6.apk",
+      "file_size": 1249071,
+      "sha256": "f95ee594bb8ca38bb2f67d68e72fc14b587d96d248f97161c5716543d9c3c561",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/asm-checkin-pda-v1.0.5-build6/asm-checkin-pda-1.0.5-build6.apk",
+      "release_notes": "Bản 1.0.5 (build 6): App chuyển đúng mục đích CHỈ TRẢ THẺ (check-out) tại cổng: bỏ kết nối Local server, bỏ check-in, bỏ cập nhật biển số và ghi nhận giờ Request User. Bảo vệ quét QR của khách hoặc mã vạch trên thẻ → app chỉ hiện chi tiết khi có thẻ đang mở → bấm TRẢ THẺ để thu hồi. Giữ nguyên: quét HID/intent, cảnh báo sức khỏe, hiển thị thời gian xử lý, Cài đặt khóa mật khẩu 1999 + icon con mắt, tự cập nhật từ asm-app-release.",
+      "uploaded_at": "2026-10-02T05:07:50+00:00"
     }
   }
 }

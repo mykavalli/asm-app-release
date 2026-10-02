@@ -7,14 +7,14 @@ Repository: `mykavalli/asm-app-release`
 **ASM Check-in PDA** (Android) — app bảo vệ quét QR check-in/check-out tại cổng
 (cài trên máy PDA scanner cầm tay, kết nối Cloud `asm-gate` + Local `asm-fastapi`).
 
-* **Phiên bản:** `1.0.4`
-* **Build number:** `5`
-* **File cập nhật:** `asm-checkin-pda-1.0.4-build5.apk`
+* **Phiên bản:** `1.0.5`
+* **Build number:** `6`
+* **File cập nhật:** `asm-checkin-pda-1.0.5-build6.apk`
 * **File mô tả phiên bản:** [`version.json`](./version.json)
 * **Endpoint kiểm tra cập nhật:**
   `https://raw.githubusercontent.com/mykavalli/asm-app-release/asm-checkin-pda/version.json`
 * **GitHub Release URL:**
-  `https://github.com/mykavalli/asm-app-release/releases/tag/asm-checkin-pda-v1.0.4-build5`
+  `https://github.com/mykavalli/asm-app-release/releases/tag/asm-checkin-pda-v1.0.5-build6`
 
 ## Quy trình phát hành bản mới
 
