@@ -3,14 +3,14 @@
   "platforms": {
     "android": {
       "has_update": true,
-      "version_name": "1.6.2",
-      "build_number": 18,
-      "file_name": "shuttle-mobile-control-1.6.2-build18.apk",
-      "file_size": 1274511,
-      "sha256": "883788b7ae45a154538c6349acfe2e22b26622948b779d7b5d803d23e667528a",
-      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.6.2-build18/shuttle-mobile-control-1.6.2-build18.apk",
-      "release_notes": "Bản 1.6.2 (build 18) - Đồng bộ theo audit với 2 app Prosst cũ: (1) Ép giữ chế độ AUTO khi đang ở tab Tự động (~2s/lần, không ép khi đang Stop) - giống app MAUI đang chạy thật; (2) Phản hồi 'đang nhập' hợp nhất 2 nguồn DBX2.0 (như RN) + DBX1.7 (như MAUI); (3) Cảnh báo 'ROBOT CHƯA HOẠT ĐỘNG ĐƯỢC!' khi DB100.0.0 = OFF (giống app cũ); (4) Nhập đơn ghi thêm DBW14=1 (W_MNhap_SoPallet) trước khi pulse DBX1.7; (5) Báo cáo audit đầy đủ trong docs/Audit_Old_vs_New.md.",
-      "uploaded_at": "2026-09-29T09:45:00+00:00"
+      "version_name": "1.7.2",
+      "build_number": 21,
+      "file_name": "shuttle-mobile-control-1.7.2-build21.apk",
+      "file_size": 1289415,
+      "sha256": "e32b2dfc6031839eff30d3748a0ff766c0fb9f99b412d1a2bccfcdfb61ad09a0",
+      "download_url": "https://github.com/mykavalli/asm-app-release/releases/download/shuttle-mobile-control-v1.7.2-build21/shuttle-mobile-control-1.7.2-build21.apk",
+      "release_notes": "Bản 1.7.2 (build 21) - Áp dụng các thay đổi từ bản cài đặt shuttle 1.7.1: (1) Nhập đơn/liên tục dùng chung DBX2.0, phân biệt bằng số lượng DBW4 (1 = đơn, 30000 = liên tục) - bỏ bit 1.7; (2) Xếp hàng đổi sang DBX22.1; (3) Home = KD2-Q1 (DB100.29.4) & KD4-Q1 (DB100.40.2) = 1 (thêm 2 cảm biến); (4) STOP/Cancel xóa thêm bit JOG nâng/hạ + DBW4=0; (5) Dịch vụ chạy nền PlcForegroundService + WakeLock + WifiLock + xin miễn tối ưu pin (giữ kết nối khi tắt màn hình); (6) NetworkCallback WiFi tự bind lại; (7) Thêm Khóa Chiều B (lock side B) trong Cài đặt. LƯU Ý: bản 1.7.1 của đội cài đặt ký bằng keystore khác nên KHÔNG update đè trực tiếp được - cần gỡ cài đặt trước (điện thoại test đã cài sẵn 1.7.2 này).",
+      "uploaded_at": "2026-10-12T08:15:00+00:00"
     },
     "windows": {
       "has_update": false
